@@ -1,7 +1,7 @@
 call pathogen#infect()
 call pathogen#helptags()
 
-set guifont=Source\ Code\ Pro\ 10
+set guifont=Source\ Code\ Pro\ 12
 set hidden
 set number
 set vb t_vb=
@@ -16,6 +16,7 @@ else
 endif
 let g:solarized_termcolors=256
 colorscheme solarized
+"colorscheme badwolf
 
 if has("autocmd")
   filetype plugin indent on
